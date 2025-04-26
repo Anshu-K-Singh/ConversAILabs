@@ -2,30 +2,7 @@
 
 This project provides a FastAPI backend with a `/create-agent` endpoint that allows users to create agents using either the VAPI or Retell provider. The endpoint maps user-provided parameters to the appropriate provider's API format and makes an HTTP POST request to create the agent.
 
-## Features
-- Supports two providers: VAPI and Retell.
-- Validates input using Pydantic models.
-- Uses `httpx` for asynchronous HTTP requests.
-- Handles provider-specific payload mapping.
 
-## Requirements
-- Python 3.10 or higher
-- FastAPI
-- Uvicorn
-- httpx
-- Pydantic
-
-## Installation
-1. Clone the repository:
-   ```bash
-   git clone <repository-url>
-   cd AI Agents
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
 
 ## Running the Application
 Start the FastAPI application using Uvicorn:
@@ -92,5 +69,3 @@ CONFIG = {
 }
 ```
 
-## License
-This project is licensed under the MIT License.
